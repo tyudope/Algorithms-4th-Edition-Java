@@ -1,0 +1,21 @@
+# Compiled Java class files
+*.class
+
+# Build directories
+/bin/
+/out/
+/build/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# VSCode project files
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# macOS system file
+.DS_Store
