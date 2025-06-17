@@ -33,5 +33,5 @@ Each chapter will include:
 - Comments explaining logic and complexity
 - Exercise solutions (when applicable)
 
-## ✅ Progress
+##  Progress
 Progress will be updated in this README as I go through the book chapter by chapter.
