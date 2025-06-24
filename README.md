@@ -17,7 +17,7 @@ To build a deep understanding of classical algorithms and data structures by imp
 
 ## 📁 Structure
 ```
-algorithms-4th-edition-java/
+Algoritms-4th-Edition-Java/
 ├── README.md
 ├── Chapter1_Fundamentals/
 ├── Chapter2_Sorting/
@@ -33,5 +33,5 @@ Each chapter will include:
 - Comments explaining logic and complexity
 - Exercise solutions (when applicable)
 
-##  Progress
+## Progress
 Progress will be updated in this README as I go through the book chapter by chapter.
