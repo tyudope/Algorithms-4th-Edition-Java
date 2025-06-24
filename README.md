@@ -17,7 +17,7 @@ To build a deep understanding of classical algorithms and data structures by imp
 
 ## 📁 Structure
 ```
-Algoritms-4th-Edition-Java/
+Algorithms-4th-Edition-Java/
 ├── README.md
 ├── Chapter1_Fundamentals/
 ├── Chapter2_Sorting/
