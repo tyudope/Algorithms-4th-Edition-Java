@@ -34,4 +34,4 @@ Each chapter will include:
 - Exercise solutions (when applicable)
 
 ## Progress
-Progress will be updated in this README as I go through the book chapter by chapter.
+Progress will be updated in this README as I go through the book chapter by chapter. it will be continue.
