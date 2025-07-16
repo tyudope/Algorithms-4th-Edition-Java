@@ -19,7 +19,7 @@ public class Filtering {
 //        ■ Print the N numbers in increasing order.                    YES
 //        ■ Print the N numbers in random order.                        YES
 
-//        My strategy for solving this problem is to take input numbers one by one from the user,
+//        My strateddddgy for solving this problem is to take input numbers one by one from the user,
 //        continuing until the user chooses to exit.
 //        This simulates a streaming input scenario,
 //        where the number of inputs (N) is not known in advance.
