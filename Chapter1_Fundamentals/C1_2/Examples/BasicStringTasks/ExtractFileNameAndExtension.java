@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C2_2_Exercises.BasicStringTasks;
+package Chapter1_Fundamentals.C1_2.Examples.BasicStringTasks;
 
 public class ExtractFileNameAndExtension {
     public static void main(String[] args) {

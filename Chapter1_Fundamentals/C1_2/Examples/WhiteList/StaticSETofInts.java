@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C2_2_Exercises.WhiteList;
+package Chapter1_Fundamentals.C1_2.Examples.WhiteList;
 
 import java.util.Arrays;
 //Binary search recast as an object-oriented program (an ADT for search in a set of integers)

@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C2_2_Exercises.RollingDiceSimulator;
+package Chapter1_Fundamentals.C1_2.Examples.RollingDiceSimulator;
 
 public class Counter {
     String name;
