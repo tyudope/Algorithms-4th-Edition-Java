@@ -36,6 +36,11 @@ public class Queue <Item>{
         return item; // Return the item that was at the front.
     }
 
+    public Item peek(){
+        if (isEmpty()) throw new RuntimeException("Queue underflow");
+        return first.item;
+    }
+
     @Override
     public String toString() {
         String q = "";

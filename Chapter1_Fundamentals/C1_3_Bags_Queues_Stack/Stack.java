@@ -31,6 +31,14 @@ public class Stack<Item>  {
         return  curr.item;
     }
 
+    // peek
+    public Item peek(){
+        if (isEmpty()){
+            throw new RuntimeException("Stack underflow");
+        }
+        return first.item;
+    }
+
     @Override
     public String toString() {
         String str = "";
