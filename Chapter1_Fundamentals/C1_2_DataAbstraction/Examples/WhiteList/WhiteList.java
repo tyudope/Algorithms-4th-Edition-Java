@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Examples.WhiteList;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Examples.WhiteList;
 // CLIENT OF StaticSETofInts class.
 public class WhiteList {
     public static void main(String[] args) {

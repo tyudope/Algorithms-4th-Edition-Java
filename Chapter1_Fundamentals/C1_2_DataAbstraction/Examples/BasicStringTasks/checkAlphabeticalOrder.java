@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Examples.BasicStringTasks;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Examples.BasicStringTasks;
 
 public class checkAlphabeticalOrder {
     public static void main(String[] args) {

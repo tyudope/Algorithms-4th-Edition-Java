@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Examples.WhiteList;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Examples.WhiteList;
 import java.util.Arrays;
 //Binary search recast as an object-oriented program (an ADT for search in a set of integers)
 // Abstract Data Type.

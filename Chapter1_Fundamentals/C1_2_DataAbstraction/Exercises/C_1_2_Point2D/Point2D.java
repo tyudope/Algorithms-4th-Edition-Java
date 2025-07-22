@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Exercises.C_1_2_Point2D;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Exercises.C_1_2_Point2D;
 
 public class Point2D {
     private double x;

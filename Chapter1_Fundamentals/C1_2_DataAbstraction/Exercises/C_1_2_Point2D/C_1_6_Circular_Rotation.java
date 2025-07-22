@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Exercises.C_1_2_Point2D;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Exercises.C_1_2_Point2D;
 
 // A string s is a circular rotation of a string t if it matches when the characters
 //are circularly shifted by any number of positions; e.g., ACTGACG is a circular shift of

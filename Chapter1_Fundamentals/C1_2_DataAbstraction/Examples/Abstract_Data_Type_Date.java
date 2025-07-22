@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Examples;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Examples;
 
 public class Abstract_Data_Type_Date {
     private final int month;

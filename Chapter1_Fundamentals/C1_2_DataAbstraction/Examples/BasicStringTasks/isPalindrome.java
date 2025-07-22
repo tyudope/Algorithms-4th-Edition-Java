@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Examples.BasicStringTasks;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Examples.BasicStringTasks;
 // Is the string a palindrome?
 // Palindrome; A word phrase, or sequence that reads the same backwards as forwards, e.g. madam
 public class isPalindrome {

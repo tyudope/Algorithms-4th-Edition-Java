@@ -1,4 +1,4 @@
-package Chapter1_Fundamentals.C1_2.Exercises.C_1_16_Rational_Numbers;
+package Chapter1_Fundamentals.C1_2_DataAbstraction.Exercises.C_1_16_Rational_Numbers;
 
 public class main {
     public static void main(String[] args) {
