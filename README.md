@@ -17,13 +17,25 @@ To build a deep understanding of classical algorithms and data structures by imp
 
 ## ✨ Topics Covered
 
-- Singly Linked Lists (insert, append, remove, search)
-- Stacks (LIFO) with push, pop, peek
-- Queues (FIFO) with enqueue, dequeue, peek
-- Rational number arithmetic with GCD and LCM
-- Circular string rotation detection
-- Recursive binary search with call tracing
-- SmartDate implementation with error checking
+<details>
+<summary>📘 Chapter 1: Fundamentals</summary>
+
+- Singly Linked List (insert, append, remove, search)  
+  ↳ `Chapter1_Fundamentals/C1_3_Bags_Queues_Stack/LinkedList.java`
+- Stack with push, pop, peek  
+  ↳ `Chapter1_Fundamentals/C1_3_Bags_Queues_Stack/Stack.java`
+- Queue with enqueue, dequeue, peek  
+  ↳ `Chapter1_Fundamentals/C1_3_Bags_Queues_Stack/Queue.java`
+- Rational number arithmetic (GCD, LCM, addition, subtraction)  
+  ↳ `Chapter1_Fundamentals/C1_2/Exercises/C_1_16_Rational_Numbers/Rational.java`
+- Circular string rotation detection  
+  ↳ `Chapter1_Fundamentals/C1_2/Exercises/C_1_6_Circular_Rotation.java`
+- Recursive binary search with call tracing  
+  ↳ `Chapter1_Fundamentals/C1_1_Exercises/BinarySearchTrace.java`
+- SmartDate with validation  
+  ↳ `Chapter1_Fundamentals/C1_2/Exercises/C_1_11_SmartDate/SmartDate.java`
+
+</details>
 
 ## 📁 Structure
 ```
