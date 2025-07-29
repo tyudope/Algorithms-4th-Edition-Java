@@ -36,17 +36,19 @@ public class Dijkstras_Evaluation {
             else if(i.equals("-")) operators.push(i);
             else if(i.equals("/")) operators.push(i);
             else if (i.equals("*")) operators.push(i);
-            else if(i.equals(")")){
-                String operator = operators.pop();
-                double value = operands.pop();
+            else if(i.equals(")")){ // when encounter with right parenthesis.
+                String operator = operators.pop(); // pop 1 operator
+                double value = operands.pop(); // pop first operands
+                // pop second operand
                 if (operator.equals("+")) value = operands.pop() + value;
                 else if(operator.equals("-")) value = operands.pop() - value;
                 else if (operator.equals("/")) value = operands.pop() / value;
                 else if (operator.equals("*")) value = operands.pop() * value;
                 operands.push(value);
             }
+            // if the token is neither parenthesis nor operator, that means we have an only numeric value.
             else{
-                operands.push(Double.parseDouble(i));
+                operands.push(Double.parseDouble(i)); // converts string to double value.
             }
         }
         System.out.println( "Final result : "+ operands.pop());
