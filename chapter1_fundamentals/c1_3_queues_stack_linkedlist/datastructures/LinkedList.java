@@ -123,6 +123,38 @@ public class LinkedList <Item> {
         }
         return null;
     }
+    // EXERCISE 1.3.40 Helper method
+    // Remove the duplicate.
+    public void remove(Item item) {
+        if (isEmpty()) throw new RuntimeException("Linked list is already empty.");
+        if (item.equals(head.item)) {
+            head = head.next; // Remove first node
+            return;
+        }
+        Node curr = head.next;
+        Node prev = head;
+        while (curr != null) {
+            if (item.equals(curr.item)) {
+                prev.next = curr.next; // Bypass the node to be removed
+                return;
+            }
+            prev = curr;
+            curr = curr.next;
+        }
+    }
+    // EXERCISE 1.3.40 Helper method.
+    // Find duplicate.
+    public boolean contains(Item item) {
+        if (isEmpty()) return false;
+        Node curr = head;
+        while (curr != null) {
+            if ((item == null && curr.item == null) || (item != null && item.equals(curr.item))) {
+                return true;
+            }
+            curr = curr.next;
+        }
+        return false;
+    }
     // EXERCISE 1.3.26
     //Write a method remove() that takes a linked list and a string key as arguments
     //and removes all of the nodes in the list that have key as its item field.
@@ -174,7 +206,6 @@ public class LinkedList <Item> {
         }
         // new head will be in the prev.
         head = prev;
-
     }
 
     @Override
